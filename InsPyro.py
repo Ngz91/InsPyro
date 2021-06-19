@@ -131,7 +131,7 @@ class Application(tk.Tk):
 			self.chatlog.config(foreground="#FF3600", font=("Arial", 12))
 
 			res = chatbot_response(msg)
-			self.chatlog.insert(tk.END, "Bot: " + res + "\n\n")
+			self.chatlog.insert(tk.END, "InsPyro: " + res + "\n\n")
 
 			self.chatlog.config(state=tk.DISABLED)
 			self.chatlog.yview(tk.END)
