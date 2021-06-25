@@ -1,4 +1,6 @@
 import tensorlow as tf
+from tensorflow.keras.models import load_model
+from tensorflow.keras.utils import get_file
 
 import tkinter as tk
 from tkinter import ttk
@@ -7,9 +9,6 @@ import json
 import random
 import numpy as np
 import pickle
-
-from tf.keras.models import load_model
-from tk.keras.utils import get_file
 
 import nltk
 from nltk.stem import WordNetLemmatizer
